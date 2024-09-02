@@ -1,0 +1,48 @@
+@font-face{
+    font-family: myfont;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+*{
+    font-family: myfont;
+}
+body{
+    background-color:  hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 95vh; 
+}
+.card{
+    max-width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.card-img img{
+    border-radius: 20px;
+    margin: 15px;
+}
+button{
+    background-color:  hsl(47, 88%, 63%);
+    border: none;
+    padding: 8px 18px;
+    outline: none;
+    margin: 15px;
+    border-radius: 5px;
+}
+h3,p{
+    margin: 15px;
+}
+#info,.para{
+    font-size: 16px;
+}
+.para{
+    color: hsl(0, 0%, 42%);
+}
+#info{
+    color: hsl(0, 0%, 7%) ;
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
